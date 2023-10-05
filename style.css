@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    border-radius: 75px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+audio {
+    ;
+}
