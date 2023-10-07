@@ -21,7 +21,7 @@ h3 {
 
 p {
     font-size: 20px;
-    width: 800px;
+    width: 60%;
     margin: auto;
 }
 
@@ -49,9 +49,16 @@ audio::-webkit-media-controls-play-button {
 }
 
 
-audio::-webkit-media-controls-timeline-container
-audio::-webkit-media-controls-current-time-display
-audio::-webkit-media-controls-time-remaining-display
+audio::-webkit-media-controls-timeline-container {
+    display: none;
+}
+
+audio::-webkit-media-controls-current-time-display {
+    display: none;
+}
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
 audio::-webkit-media-controls-timeline
 audio::-webkit-media-controls-volume-slider-container
 audio::-webkit-media-controls-volume-slider
@@ -60,6 +67,5 @@ audio::-webkit-media-controls-seek-forward-button
 audio::-webkit-media-controls-fullscreen-button
 audio::-webkit-media-controls-rewind-button
 audio::-webkit-media-controls-return-to-realtime-button
-audio::-webkit-media-controls-toggle-closed-captions-button
 
 
