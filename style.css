@@ -38,6 +38,10 @@ a.nav {
         width: 100%;
     }
 
+    iframe {
+        width: 392px;
+        height: 220.5px;
+    }
 }
 
 img {
