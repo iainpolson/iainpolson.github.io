@@ -1,52 +1,15 @@
-.wrapper-main {
-    width: 100%;
-    text-align: center;
+/* everything */
+
+* {
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    font-size: 20px;
-    width: 60%;
-    margin: auto;
+.wrapper-main {
+    width: 100%;
+    text-align: center;
 }
 
-a.nav {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    text-decoration: none;
-    color: black;
-}
-
-@media (max-width: 600px) {
-
-    .wrapper-main {
-        width: 100%;
-        text-align: center;
-    }
-
-    a.nav {
-        padding: 1px;
-        margin: 1px;
-        display: block;
-        border: 1px;
-        border-color: black;
-    }
-
-    p {
-        font-size: 20px;
-        width: 100%;
-    }
-
-    iframe {
-        width: 392px;
-        height: 220.5px;
-    }
-}
-
-img {
-    border-radius: 75px;
-}
+/* Headers and paragraphs */
 
 h1 {
     font-size: 40px;
@@ -60,21 +23,98 @@ h3 {
     font-size: 30px;
 }
 
+p {
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+/* Navigation Links */
+
+a.nav {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Compatibility */
+
+@media screen and (max-width: 800px) {
+
+    .wrapper-main {
+        width: 100%;
+        text-align: center;
+    }
+
+    a.nav {
+        padding: 1px;
+        margin: 1px;
+        display: block;
+        border: 1px;
+    }
+
+    p {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .wrapper-main {
+        width: 100%;
+        text-align: center;
+    }
+
+    a.nav {
+        padding: 1px;
+        margin: 1px;
+        display: block;
+        border: 1px;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    iframe {
+        width: 392px;
+        height: 220.5px;
+    }
+}
+
+/* Images */
+
+.profilePic {
+    border-radius: 75px;
+}
+
+.artistPic {
+    height: 200px;
+    border-radius: 50px;
+}
+
+/* Audio */
+
+audio {
+    width: 25%;
+}
+
 audio::-webkit-media-controls-panel {
     background-color: white;
 }
 
 audio::-webkit-media-controls-mute-button {
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 50%;
 }
 
 audio::-webkit-media-controls-play-button {
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 50%;
 }
-
-
 
 audio::-webkit-media-controls-timeline-container {
     display: none;
@@ -86,12 +126,18 @@ audio::-webkit-media-controls-current-time-display {
 audio::-webkit-media-controls-time-remaining-display {
     display: none;
 }
-audio::-webkit-media-controls-timeline
-audio::-webkit-media-controls-volume-slider-container
-audio::-webkit-media-controls-volume-slider
+audio::-webkit-media-controls-timeline {
+
+}
+audio::-webkit-media-controls-volume-slider-container {
+
+}
+audio::-webkit-media-controls-volume-slider {
+
+}
+
 audio::-webkit-media-controls-seek-back-button
 audio::-webkit-media-controls-seek-forward-button
 audio::-webkit-media-controls-fullscreen-button
 audio::-webkit-media-controls-rewind-button
 audio::-webkit-media-controls-return-to-realtime-button
-
