@@ -163,11 +163,15 @@ nav {
     }
 
     #spotifyPlayer {
-        width: 100vw;
+        width: 85vw;
     }
 
     .trackPlayer {
-        width: 100vw;
+        width: 75vw;
+    }
+
+    audio {
+        width: 100px
     }
 
     audio::-webkit-media-controls-timeline {
