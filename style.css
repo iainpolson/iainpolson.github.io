@@ -113,6 +113,14 @@ nav {
         border-radius: 25px;
     }
 
+    #spotifyPlayer {
+        width: 100vw;
+    }
+
+    .trackPlayer {
+        width: 100vw;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -155,13 +163,17 @@ nav {
     }
 
     #spotifyPlayer {
-        width: 400px;
+        width: 100vw;
     }
 
     .trackPlayer {
-        width: 400px;
+        width: 100vw;
     }
-    
+
+    audio::-webkit-media-controls-timeline {
+        display: none;
+    }
+
 }
 
 /* Images */
