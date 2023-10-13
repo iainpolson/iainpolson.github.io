@@ -87,10 +87,10 @@ nav {
     }
 
     a.nav {
-        padding: 1px;
-        margin: 1px;
+        padding: 0px;
+        margin: 0px;
         display: block;
-        border: 1px;
+        border: 0px;
     }
 
     p {
@@ -131,10 +131,10 @@ nav {
     }
 
     a.nav {
-        padding: 1px;
-        margin: 1px;
+        padding: 0px;
+        margin: 0px;
         display: block;
-        border: 1px;
+        border: 0px;
     }
 
     p {
